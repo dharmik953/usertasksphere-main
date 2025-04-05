@@ -38,7 +38,7 @@ A complete Task Management App built using React for the frontend, Node.js as th
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/task-management-app](https://github.com/dharmik953/usertasksphere-main).git
+git clone https://github.com/dharmik953/usertasksphere-main.git
 ```
 
 2. **Install dependencies:**
