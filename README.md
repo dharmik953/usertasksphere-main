@@ -1,75 +1,83 @@
-
 # Task Management Application
 
-A full-stack task management application built with:
+A complete Task Management App built using React for the frontend, Node.js as the backend, and MongoDB for data storage.
 
-## Frontend
-- React
-- TypeScript
-- Tailwind CSS
-- Shadcn/UI
-- React Query
+## 📹 Demo
 
-## Backend
-- Node.js
-- Express
-- MongoDB
-- JWT Authentication
 
-## Features
-- User authentication (login/signup)
-- Create, read, update, delete tasks
-- Set task priority levels
-- Task categorization
-- Due dates and reminders
-- Task status tracking
-- Pin important tasks
 
-## Getting Started
+[![Project Demo](https://img.youtube.com/vi/your-video-id-here/maxresdefault.jpg)](https://your-video-url-here)
 
-### Prerequisites
-- Node.js
-- MongoDB
+*(Replace the image and link above with your actual 4-minute project preview video.)*
 
-### Setup
+## 🚀 Features
 
-1. Clone the repository
-2. Install frontend dependencies:
+- **User Authentication:**
+  - Secure user registration and login
+  - JWT token-based authentication
+
+- **Task Management:**
+  - Create, Read, Update, and Delete tasks
+  - Sort tasks based on:
+    - Due Date
+    - Urgency Level
+
+- **Task Interaction:**
+  - Pin and unpin tasks for quick access
+  - Toggle tasks as completed or incomplete
+  - Visual representation and dynamic updates of task status
+
+## 🛠️ Technology Stack
+
+- **Frontend:** React
+- **Backend:** Node.js & Express
+- **Database:** MongoDB
+- **Authentication:** JSON Web Tokens (JWT)
+
+## 📦 Installation
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/yourusername/task-management-app](https://github.com/dharmik953/usertasksphere-main).git
 ```
+
+2. **Install dependencies:**
+```bash
+cd task-management-app
+npm install
+cd client
 npm install
 ```
 
-3. Setup backend:
-```
-cd server
-npm install
-```
-
-4. Create a `.env` file in the server folder based on `.env.example`
-5. Start the backend server:
-```
-cd server
-npm start
+3. **Set environment variables:**
+Create a `.env` file in the root directory of your project and add:
+```env
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+PORT=5032
 ```
 
-6. Start the frontend development server:
-```
+4. **Run the application:**
+
+**Server:**
+```bash
 npm run dev
 ```
 
-7. Open http://localhost:5173 in your browser
+**Client:**
+```bash
+cd client
+npm start
+```
 
-## Backend API Routes
+Your app will be available at: `http://localhost:8080`
 
-### User Routes
-- POST /api/users/login - Login a user
-- POST /api/users - Register a new user
-- GET /api/users/profile - Get user profile (requires authentication)
+## 🌱 Future Improvements
+- Enhanced user profile management
+- Task assignment and collaboration
+- Notifications and reminders
 
-### Task Routes
-- GET /api/tasks - Get all tasks for logged in user
-- POST /api/tasks - Create a new task
-- PUT /api/tasks/:id - Update a task
-- DELETE /api/tasks/:id - Delete a task
-- PUT /api/tasks/:id/toggle-complete - Toggle task completion status
-- PUT /api/tasks/:id/toggle-pin - Toggle task pin status
+---
+
+*Happy Tasking!* 🚀📌
+
