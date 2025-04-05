@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-// const url = "mongodb://localhost:27017/testDb";
+
 const connectDB = async (uri = process.env.MONGO_URI) => {
   // Check if already connected
   if (mongoose.connection.readyState === 1) {
