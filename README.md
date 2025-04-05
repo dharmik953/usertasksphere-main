@@ -6,10 +6,8 @@ A complete Task Management App built using React for the frontend, Node.js as th
 
 
 
-[![Project Demo](https://drive.google.com/file/d/1bsY0QFlVqn0PFC8uMHL-7m9xUyrX8_9H/view)
+[Project Demo](https://drive.google.com/file/d/1bsY0QFlVqn0PFC8uMHL-7m9xUyrX8_9H/view)
 
-
-*(Replace the image and link above with your actual 4-minute project preview video.)*
 
 ## 🚀 Features
 
